@@ -1,11 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dev Match is a service / social network that connects 
+entrepreneurs to skilled developers.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
 
 * System dependencies
 
