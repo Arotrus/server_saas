@@ -10,7 +10,7 @@ class ContactsController < ApplicationController
 			flash[:success] = "Message sent successfuly!"
 			redirect_to new_contact_path
 		else
-			flash[:danger] = "Error: message not sent!"
+			flash[:danger] = "Message has not been sent!"
 			redirect_to new_contact_path
 		end
 	end
