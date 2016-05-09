@@ -1,3 +1,7 @@
+
+<% if current_user %>
+	<%= link_to 'create your own profile!', new_user_profile_path(current_user) %> 
+<% end %>
 <div class="jumbotron text-center	">
 <h1>Welcome to the Dev Match</h1>
 <h3>A membership site where entrepreneurs can meet developers.</h3>
